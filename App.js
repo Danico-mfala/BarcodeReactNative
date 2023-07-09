@@ -5,6 +5,8 @@ import Welcome from './screens/Welcome';
 import Home from './screens/Home';
 import BarcodeGenerator from './screens/BarcodeGenerator';
 import BarcodeScan from './screens/BarcodeScanner';
+import Login from './screens/Login';
+import Registration from './screens/Registration';
 const Stack = createNativeStackNavigator();
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
         />
         <Stack.Screen name="Barcode Generator" component={BarcodeGenerator} />
         <Stack.Screen name="Barcode Scanner" component={BarcodeScan} />
+        <Stack.Screen name="Login" component={Login} />
+        <Stack.Screen name="Registration" component={Registration} />
       </Stack.Navigator>
     </NavigationContainer>
   );

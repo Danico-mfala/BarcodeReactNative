@@ -30,14 +30,19 @@ const styles = StyleSheet.create({
     marginVertical: 20,
   },
   buttonStart: {
-    width: 130,
+    width: 390,
     height: 70,
     backgroundColor: 'black',
     borderRadius: 5,
     justifyContent: 'center',
     padding: 'auto',
-    marginLeft: 130,
-    marginTop: 570,
+    marginLeft: 10,
+    marginTop: 100,
+  },
+  slideImage: {
+    width: 440,
+    height: 540,
+    marginLeft: 3,
   },
 });
 
