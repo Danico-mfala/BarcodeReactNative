@@ -29,6 +29,9 @@ export default function Welcome() {
           Get start
         </Text>
       </TouchableOpacity>
+      <TouchableOpacity onPress={() => navigation.navigate('Login')}>
+        <Text>Login</Text>
+      </TouchableOpacity>
     </View>
   );
 }

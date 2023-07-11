@@ -2,7 +2,7 @@ import {StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
   container: {
-    flex: 1,
+    flex: 2,
     alignItems: 'center',
     justifyContent: 'center',
     margin: 30,
@@ -14,15 +14,15 @@ const styles = StyleSheet.create({
     color: 'white',
   },
   titleButtonHome: {
-    fontWeight: '700',
-    fontSize: 25,
+    fontWeight: '650',
+    fontSize: 20,
   },
   buttonHome: {
-    backgroundColor: '#0C8E4E',
+    backgroundColor: '#526D82',
     borderColor: 'transparent',
     borderWidth: 0,
     borderRadius: 13,
-    height: 100,
+    height: 80,
   },
   buttonHomeContainer: {
     width: 200,
